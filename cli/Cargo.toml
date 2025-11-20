@@ -7,3 +7,17 @@ edition = "2024"
 bots = { path = "../bots" }
 num_cpus = "1.17.0"
 tournament = { path = "../tournament" }
+
+
+[[bench]]
+name = "bot_benchmark"
+harness = false
+
+[[bench]]
+name = "tournament_benchmark"
+harness = false
+
+
+[dev-dependencies]
+criterion = "0.7"
+game = { path = "../game" }

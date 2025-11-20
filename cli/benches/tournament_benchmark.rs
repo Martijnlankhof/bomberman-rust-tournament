@@ -3,7 +3,7 @@ use bots::available_bots;
 use tournament::tournament;
 use crate::tournament::prepare_bots;
 
-fn tournament_benchmark(c: &mut Criterion) {
+fn tournament_benchmark(_c: &mut Criterion) {
     let mut config = Criterion::default()
         .sample_size(10000) // default is 100; increase for more precision
         .measurement_time(std::time::Duration::from_secs(120)) // default is 5s

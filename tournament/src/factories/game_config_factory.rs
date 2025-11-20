@@ -6,7 +6,7 @@ pub struct GameConfig {
 }
 
 /// Utility to generate odd numbers in a range
-fn odd_numbers_in_range(start: usize, end: usize) -> Vec<usize> {
+pub fn odd_numbers_in_range(start: usize, end: usize) -> Vec<usize> {
     (start..=end)
         .filter(|x| x % 2 == 1)
         .collect()

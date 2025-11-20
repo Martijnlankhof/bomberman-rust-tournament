@@ -12,10 +12,10 @@ pub struct MapConfig {
 impl Default for MapConfig {
     fn default() -> Self {
         Self {
-            size: 15,
-            bomb_timer: 3,
-            bomb_radius: 2,
-            endgame: 100,
+            size: 11,
+            bomb_timer: 4,
+            bomb_radius: 3,
+            endgame: 500,
         }
     }
 }

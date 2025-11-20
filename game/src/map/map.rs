@@ -329,7 +329,7 @@ mod tests {
         map.bomb_timer_decrease();
 
         //Assert
-        assert!(map.bombs.iter().all(|b| b.timer == 2));
+        assert!(map.bombs.iter().all(|b| b.timer == 3));
     }
 
 

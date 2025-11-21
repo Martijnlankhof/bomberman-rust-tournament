@@ -240,7 +240,7 @@ impl Bot for GzBot {
             }
         });
 
-        for (target, score, dist) in scored_moves {
+        for (target, _score, _dist) in scored_moves {
             if target == player_location {
                 continue;
             }
